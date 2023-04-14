@@ -1,2 +1,10 @@
 # This is left blank intentionally. Actual variables are set using the guidon crate in android-cli.
 [variables]
+project_name = "my-app"
+app_name = "My App"
+package_id_domain = "com"
+package_id_org = "myorg"
+package_id_name = "myapp"
+compile_sdk_version = "33"
+min_sdk_version = "24"
+target_sdk_version = "33"
