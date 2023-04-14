@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.basic_activity'
+    namespace '{{package_id_domain}}.{{package_id_org}}.{{package_id_name}}'
     compileSdk {{compile_sdk_version}}
 
     defaultConfig {
-        applicationId "com.example.basic_activity"
+        applicationId "{{package_id_domain}}.{{package_id_org}}.{{package_id_name}}"
         minSdk {{min_sdk_version}} // TODO: 24 a good safe default
         targetSdk {{target_sdk_version}}}
         versionCode 1
